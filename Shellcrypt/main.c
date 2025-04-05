@@ -34,8 +34,6 @@ BOOL GenerateRandomKey(IN DWORD dwKeySize, OUT PBYTE* pKey) {
 
 BOOL main(int argc, char* argv[]) {
 
-#include <stdio.h>
-
 	if (argc < 3) {
 		printf("[!] Missing argument(s) !\n"
 			"[i] Usage : <Name of the file containing the shellcode> <Name of the file that will be created>\n"
